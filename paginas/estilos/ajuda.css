@@ -1,0 +1,163 @@
+body {
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #fff;
+    height: 70px;
+    border-bottom: solid 1px grey;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+#titulo {
+    font-size: 1.48em;
+    position: relative;
+    bottom: -5px;
+    color: #004AAD;
+}
+
+#caminhao {
+    position: relative;
+    bottom: -7px;
+}
+
+.navbar {
+    margin: auto;
+    background-color: #ffffff00;
+    padding: 10px;
+}
+
+.navbar-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-item {
+    margin: 0 15px;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: #004AAD;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+.navbar-link:hover {
+    text-decoration: underline;
+    color: #076df1;
+    transition: 0.3s;
+}
+
+#entrar, #cadastrar {
+    cursor: pointer;
+    position: relative;
+    bottom: -16px;
+    width: 150px;
+    height: 36px;
+    border-radius: 16px
+}
+#entrar {
+    margin: 0px 10px 28px 0px;
+    background-color: white;
+    border: solid 1px #1A9047;
+}
+
+#marca {
+    position: relative;
+    left: 40px;
+    display: flex;
+}
+
+#entrar:hover {
+    background-color: #1A9047;
+    transition: 1s;
+    color: white;
+}
+
+#cadastrar {
+    color: white;
+    background-color: #1A9047;
+    margin: 0px 20px 28px 10px;
+    border: none;
+}
+
+#cadastrar:hover {
+    border: solid 1px #1A9047;
+    color: black;
+    background-color: #fff;
+    transition: 1s;
+}
+
+main {
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    margin-top: 90px;
+    justify-content: center;
+}
+
+aside {
+    margin-top: 345px;
+    display: flex;
+}
+
+#aside_principal {
+    font-size: 2.5em;
+    color: #2BC866;
+}
+
+#aside_paragrafo {
+    font-size: 1.2em;
+    color: #333333;
+}
+
+#divisao_aside {
+    position: relative;
+    top: 15px;
+    margin-left: 50px;
+}
+
+#sections {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+article {
+    width: 250px;
+    border-radius: 5px;
+    padding: 15px;
+    border-radius: 4px;
+    border: solid 2px #2BC866;
+    margin: 80px 10px 0px 10px;
+}
+
+section {
+    display: flex;
+}
+
+.principal_article {
+    color: #2BC866;
+}
+
+.paragrafo_article {
+    color: #333333;
+}
+
+ul {
+    position: relative;
+    right: 23px;
+}
